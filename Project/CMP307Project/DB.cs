@@ -7,7 +7,7 @@ namespace CMP307Project
     class DB
     {
         //Setting up connection info
-        private string connString = "Data Source = tolmount.abertay.ac.uk; Initial Catalog = mssql1904985; User ID = mssql1904985; Password = A4dtwaP7V3";
+        private string connString = "Data Source = tolmount.abertay.ac.uk; Initial Catalog = mssql1904985; User ID = mssql1904985; Password = redundant";
         SqlConnection conn;
 
         public bool LoginDB(string username, string password)       //Function for logging in
